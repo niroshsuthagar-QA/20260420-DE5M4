@@ -13,8 +13,6 @@ from sklearn.preprocessing import LabelEncoder
 # 8. Clean the "Name" column by removing titles and converting to lowercase.
 # 9. Bin the "Age" column into categories like 'Child', 'Teen', 'Adult', and 'Senior'.
 
-# Load the Titanic dataset
-titanic_df = pd.read_csv('titanic.csv')
 
 # 1. Check for missing values and handle them.
 # Solution:
